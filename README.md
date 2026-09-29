@@ -92,8 +92,6 @@ I enjoy building practical software solutions with clean, maintainable code and 
 |                                           Project                                           | Description                                                                                                                          |                   Technologies                   |
 | :-----------------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------: |
 |       🌧️ **[Rainfall Prediction](https://github.com/RashadHub/Rainfall-Prediction)**       | A Machine Learning project that predicts whether rainfall will occur the following day using weather data from multiple sources.     | `Python` `Pandas` `Scikit-learn` `Random Forest` |
-|           📱 **[Flutter Projects](https://github.com/RashadHub/Flutter-Projects)**          | A collection of cross-platform mobile applications built with Flutter, focusing on clean UI and structured application architecture. |        `Flutter` `Dart` `Firebase` `GetX`        |
-| 🖥️ **[.NET Desktop Applications](https://github.com/RashadHub/.NET-Desktop-Applications)** | Desktop applications developed with C# and .NET, focusing on database-driven systems and structured application architecture.        |     `C#` `.NET` `WinForms` `WPF` `SQL Server`    |
 
 ---
 
@@ -130,21 +128,6 @@ I enjoy building practical software solutions with clean, maintainable code and 
   </a>
 
   </p>
-
----
-## 🤝 Connect With Me
-
-<p align="center">
-
-  <a href="https://github.com/RashadHub">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-
-  <a href="https://www.linkedin.com/in/rashad-al-saeedi/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-
-</p>
 
 ---
 
