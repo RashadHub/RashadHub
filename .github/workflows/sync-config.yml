@@ -1,0 +1,43 @@
+name: Sync Profile README
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - README.md
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Profile Repository
+        uses: actions/checkout@v4
+
+      - name: Checkout Config Repository
+        uses: actions/checkout@v4
+        with:
+          repository: RashadHub/my-github-config
+          token: ${{ secrets.CONFIG_REPO_TOKEN }}
+          path: config
+
+      - name: Copy README
+        run: |
+          cp README.md config/README.md
+
+      - name: Commit and Push
+        run: |
+          cd config
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Sync Profile README"
+            git push
+          fi
